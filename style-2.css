@@ -1,0 +1,192 @@
+/* top banner styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.first-section {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    margin-left: 100px;
+    background: #161616;
+    border-radius: 30px;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.banner-summary {
+    width: 531px;
+    height: 424px;
+    width: 531px;
+    height: 240px;
+    margin-top: 194px;
+    margin-left: 55px;
+
+}
+
+.image {
+    width: 100%;
+    width: 100%;
+}
+
+
+.font {
+    font-size: 2.5em;
+    font-weight: 900;
+    size: 70px;
+}
+
+.watch-button {
+    background-color: #DD0000;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 7px;
+
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+}
+
+.watch-button:hover {
+    background-color: skyblue;
+
+}
+
+/* second section */
+.blog-articles {
+    width: 90%;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.Upcoming {
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.all-groups {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blog-fixd {
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+#link {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 15px;
+    width: 270px;
+    height: 250px;
+    padding: 30px;
+    margin: 20px;
+    padding-left: 10px;
+    /* height: 222px; */
+}
+
+.blogs a {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #161616;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 14px;
+}
+
+.blogs-2 {
+    padding: 30px;
+}
+
+.blogs-2.1 {
+    height: 250px;
+    padding: 30px;
+}
+
+
+
+.articale {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+.goal {
+    height: 5.5em;
+    padding-top: 10px;
+}
+
+hr {
+    width: 80%;
+
+}
+
+.about {
+    height: 5.5em;
+    padding: 30px;
+}
+
+.about a {
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.link-icon {
+    padding: 10px;
+    color: white;
+}
+
+/*--------------
+ media query 
+ ----------------*/
+
+/* mobile view */
+
+@media only screen and (max-width:688px) {
+
+    .first-section {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
